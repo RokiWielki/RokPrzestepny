@@ -11,7 +11,7 @@ namespace RokPrzestepny
         {
             Console.WriteLine("Podaj rok: ");
             int year = int.Parse(Console.ReadLine());
-            Rok();
+            Rok(year);
             
 
         }
@@ -21,14 +21,11 @@ namespace RokPrzestepny
             else if (year%400==0) return true;
             else return false;
         }
-        static void Rok()
+        static void Rok(int i)
         {
-            for (int i = 0; i <= 2022; i++)
-            {
-                if (Check(i) == true)
-                    Console.WriteLine(i+" Jest Przestępny");
-                else Console.WriteLine(i+ "Nie jest");
-            }
+            if (Check(i) == true)
+            Console.WriteLine(i+" Jest Przestępny");
+            else Console.WriteLine(i+ "Nie jest");
         }
     }
 }
