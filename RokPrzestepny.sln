@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RokPrzestepny", "RokPrzestepny.csproj", "{C84939B0-F96C-4D11-A707-D6D1573B9722}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C84939B0-F96C-4D11-A707-D6D1573B9722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C84939B0-F96C-4D11-A707-D6D1573B9722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C84939B0-F96C-4D11-A707-D6D1573B9722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C84939B0-F96C-4D11-A707-D6D1573B9722}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B41DB76-A0CE-4F92-984B-C9E5E52B970C}
+	EndGlobalSection
+EndGlobal
